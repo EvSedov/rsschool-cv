@@ -70,14 +70,15 @@ const stringify = (data, ancestry = '') => {
 
 ## Education
 
-### Courses:
+### Courses
 
 - **Hexlet**  
   The main platform for my study of programming is a courses from Hexlet.
 
 [![My training on Hexlet](./img/Hexlet.png)](https://ru.hexlet.io/u/kokchix)
 
-- **RSSchool**
+- **RSSchool**  
+  JavaScript/Front-end 2021Q3
 
 ---
 
