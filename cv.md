@@ -27,6 +27,7 @@ I like to solve interesting problems, try to find elegant solutions. In programm
 ## My skills
 
 - JavaScript
+- Ruby on Rails (basickbasic knowledge framework)
 - HTML5
 - CSS3
 - Git/GitHub
@@ -52,17 +53,34 @@ const stringify = (data, ancestry = '') => {
 
 **I made several training projects that I posted on github, here are the links to them:**
 
-- [Brain-Games](https://github.com/EvSedov/brain-games)  
+- **[Brain-Games](https://github.com/EvSedov/brain-games)**  
   Set of mini games. If you want to have fun and "stretch your brains", install a set of mini-games on your computer, play and have fun.
 
-- [Difference calculator](https://github.com/EvSedov/frontend-project-lvl2)  
+- **[Difference calculator](https://github.com/EvSedov/frontend-project-lvl2)**  
   Compares two configuration files and shows a difference.
 
-- [Pokemon-game](https://github.com/EvSedov/pokemon-game) (work in progress)  
+- **[Pokemon-game](https://github.com/EvSedov/pokemon-game)** (work in progress)  
   A card game based on cartoons about Pokemon. If you want to play, then follow [this link](https://evs-pokemon-game.netlify.app/).
+
+- **[Task Manager](https://github.com/EvSedov/TaskManager)** (work in progress)  
+  Task Manager - web project written in Ruby on Rails.  
+  [Task Manager deployed on Heroku](https://sev-task-manager.herokuapp.com/)
 
 ---
 
 ## Education
 
+### Courses:
+
+- **Hexlet**  
+  The main platform for my study of programming is a courses from Hexlet.
+
+[![My training on Hexlet](./img/Hexlet.png)](https://ru.hexlet.io/u/kokchix)
+
+- **RSSchool**
+
+---
+
 ## English language
+
+Level А1 (breakthrough or beginner).
