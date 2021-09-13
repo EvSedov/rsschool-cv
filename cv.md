@@ -1,6 +1,4 @@
-## [Link to my cv](https://EvSedov.github.io/rsschool-cv/cv)
-
----
+**[Link to my cv in the markdown format](https://EvSedov.github.io/rsschool-cv/cv)**
 
 # Evgeniy Sedov
 
@@ -24,12 +22,16 @@
 
 I like to solve interesting problems, try to find elegant solutions. In programming, i found this. Programming allows me to hone this skill endlessly, develops my brain and makes my life rich and interesting. I like to study different programming paradigms by looking at how they are implemented in programming languages, such as: JavaScript, Python, Ruby, Haskell and others.
 
+---
+
 ## My skills
 
 - JavaScript
 - HTML5
 - CSS3
 - Git/GitHub
+
+---
 
 ## Code examples
 
@@ -44,6 +46,8 @@ const stringify = (data, ancestry = '') => {
 };
 ```
 
+---
+
 ## Experience
 
 **I made several training projects that I posted on github, here are the links to them:**
@@ -56,6 +60,8 @@ const stringify = (data, ancestry = '') => {
 
 - [Pokemon-game](https://github.com/EvSedov/pokemon-game) (work in progress)  
   A card game based on cartoons about Pokemon. If you want to play, then follow [this link](https://evs-pokemon-game.netlify.app/).
+
+---
 
 ## Education
 
