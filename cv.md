@@ -1,8 +1,6 @@
-**[Link to my cv in the markdown format](https://EvSedov.github.io/rsschool-cv/cv)**
-
 # Evgeniy Sedov
 
-### I am passionate about programming
+I am passionate about programming
 
 ---
 
