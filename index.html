@@ -39,5 +39,21 @@
       <li>Ruby on Rails (basickbasic knowledge framework)</li>
     </ul>
     <hr />
+    <h2>Code examles</h2>
+    <p>
+      The code example is taken from my project "Difference calculator" on
+      GitHub:
+    </p>
+    <pre>
+      <code>
+        const stringify = (data, ancestry = '') => {
+          const currentKey = ancestry;
+          const { type, key } = data;
+          const compositeKey = getKey(currentKey, key);
+          return collectionOfStrings[type](compositeKey, data);
+        };
+      </code>
+    </pre>
+    <hr />
   </body>
 </html>
