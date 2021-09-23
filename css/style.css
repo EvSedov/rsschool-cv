@@ -1,0 +1,46 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header,
+.footer {
+  display: flex;
+  align-items: center;
+
+  background-color: #616161;
+}
+
+.header {
+  justify-content: center;
+  padding: 10px;
+}
+
+.footer {
+  justify-content: space-between;
+  padding: 25px 10px;
+}
+
+.header > img {
+  margin-right: 50px;
+  border-radius: 50%;
+}
+
+.header h1 {
+  font-size: 42px;
+}
+
+.header p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer > div {
+  display: flex;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 18px;
+  color: #000;
+  text-decoration: none;
+}

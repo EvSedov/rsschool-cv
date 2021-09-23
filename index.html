@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Evgeniy Sedov CV</title>
   </head>
   <body>
-    <header></header>
-    <main>
-      <img src="./img/ev.sedov.jpg" alt="Evgeniy Sedov" width="300px" />
-      <h1>Evgeniy Sedov</h1>
-      <p>I am passionate about programming</p>
-      <hr />
+    <header class="header container">
+      <img src="./img/ev.sedov.jpg" alt="Evgeniy Sedov" width="250" />
+      <div>
+        <h1>Evgeniy Sedov</h1>
+        <hr />
+        <p>I am passionate about programming.</p>
+      </div>
+    </header>
+    <main class="main container">
       <h2>My contacts</h2>
       <p><b>Phone:</b> <a href="tel:+79232402712">+79232402712</a></p>
       <p><b>Telegram:</b> <a href="http://t.me/evsedov">@evsedov</a></p>
@@ -159,15 +162,20 @@
       <h2>English language</h2>
       <p>Level А1 (breakthrough or beginner).</p>
     </main>
-    <footer class="footer">
-      <a
-        href="https://github.com/EvSedov"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <img src="./img/github_icon.png" alt="GitHub icon" width="50px" />
-        Visit my GitHub
-      </a>
+    <footer class="footer container">
+      <div>
+        <img src="./img/github_icon.png" alt="GitHub icon" width="25" />
+        <a
+          class="footer-text"
+          href="https://github.com/EvSedov"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          &nbsp;Visit my GitHub
+        </a>
+      </div>
+      <span class="footer-text">&copy; 2021</span>
+      <img src="./img/rs_school_js.svg" alt="RSSchool" height="25" />
     </footer>
   </body>
 </html>
