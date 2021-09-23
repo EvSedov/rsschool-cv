@@ -1,3 +1,5 @@
-https://EvSedov.github.io/rsschool-cv/cv
+# Evgeniy Sedov CV
 
-https://EvSedov.github.io/rsschool-cv/
+[CV on form markdown](https://EvSedov.github.io/rsschool-cv/cv)
+
+[Site CV](https://evsedov.github.io/rsschool-cv/index.html)
