@@ -13,7 +13,7 @@
   </head>
   <body>
     <header class="header">
-      <nav class="nav odd">
+      <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
           <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
@@ -79,14 +79,14 @@
             GitHub:
           </p>
           <pre>
-            <code>
-              const stringify = (data, ancestry = '') => {
-                const currentKey = ancestry;
-                const { type, key } = data;
-                const compositeKey = getKey(currentKey, key);
-                return collectionOfStrings[type](compositeKey, data);
-              };
-            </code>
+  <code>
+    const stringify = (data, ancestry = '') => {
+      const currentKey = ancestry;
+      const { type, key } = data;
+      const compositeKey = getKey(currentKey, key);
+      return collectionOfStrings[type](compositeKey, data);
+    };
+  </code>
           </pre>
         </section>
 
