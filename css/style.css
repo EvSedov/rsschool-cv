@@ -2,9 +2,14 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  color:#302d2d;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -15,6 +20,8 @@ body {
 
 h1 {
   font-size: 4em;
+  color:#000;
+  margin-bottom: 10px;
 }
 
 h2 {
@@ -31,7 +38,8 @@ h3 {
   width: 100vw;
 }
 
-.container {
+.container,
+.nav {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 10px;
@@ -41,7 +49,6 @@ h3 {
 .footer .container {
   display: flex;
   align-items: center;
-
   background-color: #616161;
 }
 
@@ -66,8 +73,9 @@ h3 {
 }
 
 .header p {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
+  color:#000;
 }
 .footer .container > div {
   display: flex;
@@ -78,4 +86,38 @@ h3 {
   font-size: 1.5em;
   color: #000;
   text-decoration: none;
+}
+
+.nav {
+  margin: 0;
+  border-bottom: #fff solid 2px;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 1.3em;
+  color:#fff;
+}
+
+.odd {
+  background-color: #302d2d;
+  color:#cac5c5;
+}
+
+a {
+  color: #000;
+  transition: .3s;
+}
+
+a:hover {
+  color: #858282;
 }
