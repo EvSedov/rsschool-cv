@@ -5,181 +5,218 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <link rel="icon" href="./assets/cv-favicon.ico">
     <title>Evgeniy Sedov CV</title>
   </head>
   <body>
-    <header class="header container">
-      <img src="./img/ev.sedov.jpg" alt="Evgeniy Sedov" width="250" />
-      <div>
-        <h1>Evgeniy Sedov</h1>
-        <hr />
-        <p>I am passionate about programming.</p>
-      </div>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#curses" class="nav-link">Curses</a></li>
+          <li class="nav-item"><a href="#english " class="nav-link">English</a></li>
+        </ul>
+      </nav>
     </header>
-    <main class="main container">
-      <h2>My contacts</h2>
-      <p><b>Phone:</b> <a href="tel:+79232402712">+79232402712</a></p>
-      <p><b>Telegram:</b> <a href="http://t.me/evsedov">@evsedov</a></p>
-      <p><b>Slack:</b> evgeniy.sedov</p>
-      <p>
-        <b>E-mail:</b>
-        <a href="mailto:79232402712@yandex.ru">79232402712@yandex.ru</a>
-      </p>
-      <hr />
-      <h2>Briefly about myself</h2>
-      <p>
-        I like to solve interesting problems, try to find elegant solutions. In
-        programming, i found this. Programming allows me to hone this skill
-        endlessly, develops my brain and makes my life rich and interesting. I
-        like to study different programming paradigms by looking at how they are
-        implemented in programming languages, such as: JavaScript, Python, Ruby,
-        Haskell and others.
-      </p>
-      <hr />
-      <h2>My skills</h2>
-      <ul>
-        <li>JavaScript</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>Git/GitHub</li>
-        <li>Ruby on Rails (basickbasic knowledge framework)</li>
-      </ul>
-      <hr />
-      <h2>Code examles</h2>
-      <p>
-        The code example is taken from my project "Difference calculator" on
-        GitHub:
-      </p>
-      <pre>
-      <code>
-        const stringify = (data, ancestry = '') => {
-          const currentKey = ancestry;
-          const { type, key } = data;
-          const compositeKey = getKey(currentKey, key);
-          return collectionOfStrings[type](compositeKey, data);
-        };
-      </code>
-    </pre>
-      <hr />
-      <h2>Experience</h2>
-      <p>
-        <b
-          >I made several training projects that I posted on github, here are
-          the links to them:</b
-        >
-      </p>
-      <ul>
-        <li>
-          <a
-            href="https://github.com/EvSedov/brain-games"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <b>Brain-Games</b>
-          </a>
+    <main class="main">
+      <div class="container">
+
+        <section class="section profile">
+          <img src="./assets/img/ev.sedov.jpg" alt="Evgeniy Sedov" width="250" />
+          <div>
+            <h1>Evgeniy Sedov</h1>
+            <hr />
+            <p>I am passionate about programming.</p>
+          </div>
+        </section>
+
+        <section class="section" id="contacts">
+          <h2>My contacts</h2>
+          <p><b>Phone:</b> <a href="tel:+79232402712">+79232402712</a></p>
+          <p><b>Telegram:</b> <a href="http://t.me/evsedov">@evsedov</a></p>
+          <p><b>Slack:</b> evgeniy.sedov</p>
           <p>
-            Set of mini games. If you want to have fun and "stretch your
-            brains", install a set of mini-games on your computer, play and have
-            fun.
+            <b>E-mail:</b>
+            <a href="mailto:79232402712@yandex.ru">79232402712@yandex.ru</a>
           </p>
-        </li>
-        <li>
-          <a
-            href="https://github.com/EvSedov/frontend-project-lvl2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <b>Difference calculator</b>
-          </a>
-          <p>Compares two configuration files and shows a difference.</p>
-        </li>
-        <li>
-          <a
-            href="https://github.com/EvSedov/pokemon-game"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <b>Pokemon-game</b>
-            (work in progress)
-          </a>
+        </section>
+
+        <section class="section" id="summary">
+          <h2 >Briefly about myself</h2>
           <p>
-            A card game based on cartoons about Pokemon. If you want to play,
-            then follow
-            <a
-              href="http://evs-pokemon-game.netlify.app/"
-              target="_blank"
-              rel="noopener noreferrer"
+            I like to solve interesting problems, try to find elegant solutions. In
+            programming, i found this. Programming allows me to hone this skill
+            endlessly, develops my brain and makes my life rich and interesting. I
+            like to study different programming paradigms by looking at how they are
+            implemented in programming languages, such as: JavaScript, Python, Ruby,
+            Haskell and others.
+          </p>
+        </section>
+
+        <section class="section" id="skills">
+          <h2 >My skills</h2>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Git/GitHub</li>
+            <li>Ruby on Rails (basickbasic knowledge framework)</li>
+          </ul>
+        </section>
+
+        <section class="section" id="code">
+          <h2 >Code examles</h2>
+          <p>
+            The code example is taken from my project "Difference calculator" on
+            GitHub:
+          </p>
+          <pre>
+  <code>
+    const stringify = (data, ancestry = '') => {
+      const currentKey = ancestry;
+      const { type, key } = data;
+      const compositeKey = getKey(currentKey, key);
+      return collectionOfStrings[type](compositeKey, data);
+    };
+  </code>
+          </pre>
+        </section>
+
+        <section class="section" id="projects">
+          <h2 >Experience</h2>
+          <p>
+            <b
+              >I made several training projects that I posted on github, here are
+              the links to them:</b
             >
-              this link
-            </a>
           </p>
-        </li>
-        <li>
-          <a
-            href="https://github.com/EvSedov/TaskManager"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <b>Task Manager</b>
-          </a>
-          (work in progress)
-          <p>
-            Task Manager - web project written in Ruby on Rails.<br />
-            <a
-              href="http://sev-task-manager.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Task Manager deployed on Heroku
-            </a>
-          </p>
-        </li>
-      </ul>
-      <hr />
-      <h2>Education</h2>
-      <h3>Curses</h3>
-      <ul>
-        <li>
-          <b>Hexlet</b>
-          <p>
-            The main platform for my study of programming is a courses from
-            Hexlet.
-          </p>
-          <a
-            href="https://ru.hexlet.io/u/evsedov"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="./img/Hexlet.png" alt="Hexlet.png" />
-          </a>
-        </li>
-        <li>
-          <b>RSSchool</b>
-          <p>JavaScript/Front-end. Stage 0</p>
-        </li>
-      </ul>
-      <hr />
-      <h2>English language</h2>
-      <p>Level А1 (breakthrough or beginner).</p>
-      <hr />
+          <ul>
+            <li>
+              <a
+                href="https://github.com/EvSedov/brain-games"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <b>Brain-Games</b>
+              </a>
+              <p>
+                Set of mini games. If you want to have fun and "stretch your
+                brains", install a set of mini-games on your computer, play and have
+                fun.
+              </p>
+            </li>
+            <li>
+              <a
+                href="https://github.com/EvSedov/frontend-project-lvl2"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <b>Difference calculator</b>
+              </a>
+              <p>Compares two configuration files and shows a difference.</p>
+            </li>
+            <li>
+              <a
+                href="https://github.com/EvSedov/pokemon-game"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <b>Pokemon-game</b>
+                (work in progress)
+              </a>
+              <p>
+                A card game based on cartoons about Pokemon. If you want to play,
+                then follow
+                <a
+                  href="http://evs-pokemon-game.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  this link
+                </a>
+              </p>
+            </li>
+            <li>
+              <a
+                href="https://github.com/EvSedov/TaskManager"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <b>Task Manager</b>
+              </a>
+              (work in progress)
+              <p>
+                Task Manager - web project written in Ruby on Rails.<br />
+                <a
+                  href="http://sev-task-manager.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Task Manager deployed on Heroku
+                </a>
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="education">
+          <h2>Education</h2>
+          <h3 id="curses">Curses</h3>
+          <ul>
+            <li>
+              <b>Hexlet</b>
+              <p>
+                The main platform for my study of programming is a courses from
+                Hexlet.
+              </p>
+              <a
+                href="https://ru.hexlet.io/u/evsedov"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img class="img-hexlet" src="./assets/img/Hexlet.png" alt="Hexlet.png" />
+              </a>
+            </li>
+            <li>
+              <b>RSSchool</b>
+              <p>JavaScript/Front-end. Stage 0</p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="english">
+          <h2 >English language</h2>
+          <p>Level А1 (breakthrough or beginner).</p>
+        </section>
+
+      </div>
     </main>
-    <footer class="footer container">
-      <div>
-        <img src="./img/github_icon.png" alt="GitHub icon" width="25" />
-        <a
-          class="footer-text"
-          href="https://github.com/EvSedov"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          &nbsp;Visit my GitHub
+    <footer class="footer">
+      <div class="container">
+        <div>
+          <img src="./assets/img/github_icon.png" alt="GitHub icon" width="25" />
+          <a
+            class="footer-text"
+            href="https://github.com/EvSedov"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            &nbsp;Visit my GitHub
+          </a>
+        </div>
+        <span class="footer-text">&copy; 2022</span>
+        <a href="https://rs.school/js-stage0/" target="_blank" rel="noopener noreferrer">
+          <img src="./assets/img/rs_school_js.svg" alt="RSSchool" height="25" />
         </a>
       </div>
-      <span class="footer-text">&copy; 2022</span>
-      <a href="https://rs.school/js-stage0/" target="_blank" rel="noopener noreferrer">
-        <img src="./img/rs_school_js.svg" alt="RSSchool" height="25" />
-      </a>
     </footer>
   </body>
 </html>
